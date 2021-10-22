@@ -1,0 +1,31 @@
+.post-item {
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #5C536B;
+  &:hover {
+    text-decoration: none;
+    color: #5C536B;
+  }
+  .card-body {
+    border-radius: 3px;
+    padding: 20px;
+    .card-title {
+      color: #1D72E7;
+      font-size: 1.4rem;
+    }
+    .card-text {
+      padding: 5px;
+      font-size: 1rem;
+      margin: 0;
+      &.content {
+        height: 130px;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+      &.author {
+        font-size: 0.8rem;
+        color: #aaaaaa;
+      }
+    }
+  }
+}
